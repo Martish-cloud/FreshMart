@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="65" ry="12" fill="#000" opacity="0.14" filter="blur(6px)"/>
+  <!-- Fresh Green Tender Coconut -->
+  <path d="M70 120 C60 165 95 205 120 205 C145 205 180 165 170 120 C160 85 135 75 120 75 C105 75 80 85 70 120 Z" fill="#15803d"/>
+  <!-- Cut top revealing white flesh & water -->
+  <ellipse cx="120" cy="88" rx="28" ry="16" fill="#f8fafc"/>
+  <ellipse cx="120" cy="88" rx="22" ry="12" fill="#e0f2fe"/>
+  <!-- Straw -->
+  <path d="M120 90 L145 40 L160 48" stroke="#ef4444" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>

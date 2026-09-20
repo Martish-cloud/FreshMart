@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <!-- Soft Contact Shadow -->
+  <ellipse cx="120" cy="216" rx="68" ry="12" fill="#000" opacity="0.12" filter="blur(6px)"/>
+  <!-- Apple Body Base Gradient -->
+  <defs>
+    <radialGradient id="appleGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff4b4b"/>
+      <stop offset="45%" stop-color="#dc2626"/>
+      <stop offset="85%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#580e0e"/>
+    </radialGradient>
+    <linearGradient id="appleStem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <!-- Apple Stem -->
+  <path d="M120 70 C122 45 136 30 144 26 C140 24 130 38 126 55 C124 64 122 72 120 74Z" fill="url(#appleStem)"/>
+  <!-- Leaf -->
+  <path d="M125 50 C145 35 170 42 178 52 C170 65 145 66 128 53Z" fill="url(#leafGrad)"/>
+  <path d="M130 52 Q150 48 174 53" stroke="#86efac" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Apple Main Fruit Shape -->
+  <path d="M120 78 C98 62 60 70 48 100 C34 135 48 190 85 208 C102 216 114 212 120 208 C126 212 138 216 155 208 C192 190 206 135 192 100 C180 70 142 62 120 78Z" fill="url(#appleGrad)"/>
+  <!-- Top indentation dent -->
+  <ellipse cx="120" cy="76" rx="14" ry="5" fill="#450a0a" opacity="0.4"/>
+  <!-- Specular 3D Gloss Highlight -->
+  <path d="M72 90 C85 78 105 78 114 82 C104 86 85 88 74 105 C70 99 70 94 72 90Z" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="68" cy="118" rx="8" ry="18" fill="#ffffff" opacity="0.25" transform="rotate(-18 68 118)"/>
+</svg>

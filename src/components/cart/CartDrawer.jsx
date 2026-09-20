@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { X, ShoppingBag, Trash2, Plus, Minus, ArrowRight, Tag, Check, Sparkles } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 import { useToast } from '../../context/ToastContext';
+import ProductImage from '../common/ProductImage';
 
 export default function CartDrawer({ isOpen, onClose, onCheckout }) {
   const {
@@ -116,11 +117,14 @@ export default function CartDrawer({ isOpen, onClose, onCheckout }) {
             {cartItems.map((item) => (
               <div key={item.id} className="py-3.5 flex items-center gap-3 group">
                 {/* Thumbnail */}
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="w-16 h-16 object-cover rounded-xl border border-gray-100 bg-gray-50 shrink-0"
-                />
+                <div className="w-14 h-14 shrink-0 flex items-center justify-center p-1 rounded-xl bg-transparent">
+                  <ProductImage
+                    src={item.image}
+                    alt={item.name}
+                    productName={item.name}
+                    category={item.category}
+                  />
+                </div>
 
                 {/* Details */}
                 <div className="flex-1 min-w-0">

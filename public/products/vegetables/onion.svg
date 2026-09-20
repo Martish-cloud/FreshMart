@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="66" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="oniGrad" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="40%" stop-color="#be185d"/>
+      <stop offset="80%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#500724"/>
+    </radialGradient>
+  </defs>
+  <!-- Top Tip Sprout -->
+  <path d="M120 70 L120 40 M116 68 L110 48 M124 68 L130 48" stroke="#701a75" stroke-width="3" stroke-linecap="round"/>
+  <!-- Bulb Body -->
+  <path d="M120 70 C165 70 190 105 185 148 C180 185 150 210 120 210 C90 210 60 185 55 148 C50 105 75 70 120 70 Z" fill="url(#oniGrad)"/>
+  <!-- Root tuft -->
+  <path d="M115 210 L112 220 M120 210 L120 223 M125 210 L128 220" stroke="#ca8a04" stroke-width="2" stroke-linecap="round"/>
+  <!-- Papery Stripes -->
+  <path d="M120 70 Q90 140 120 210 M120 70 Q150 140 120 210" stroke="#f472b6" stroke-width="1.5" opacity="0.35"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="75" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Coral Salmon Fillet -->
+  <path d="M45 145 C60 100 135 85 195 105 C195 145 165 175 120 185 C70 185 45 165 45 145 Z" fill="#fb7185"/>
+  <!-- White fat marbling stripes -->
+  <path d="M85 110 Q110 135 95 170 M115 105 Q140 130 125 175 M145 105 Q170 130 155 170 M175 112 Q190 130 180 155" stroke="#ffffff" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+</svg>

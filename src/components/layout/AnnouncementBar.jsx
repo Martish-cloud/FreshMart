@@ -3,16 +3,18 @@ import { Truck, Smartphone, MapPin, HelpCircle } from 'lucide-react';
 
 export default function AnnouncementBar({ onOpenTrackOrder, onOpenHelp, onOpenAppModal }) {
   return (
-    <div className="bg-[#0b532e] text-white text-xs py-2 px-4 border-b border-[#084223] select-none">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-        {/* Left: Free delivery notice */}
-        <div className="flex items-center gap-1.5 font-medium tracking-wide text-emerald-100">
-          <Truck className="w-4 h-4 text-emerald-300 shrink-0" />
-          <span>Free delivery on orders above <span className="text-white font-semibold">₹499</span></span>
+    <div className="bg-[#0b532e] text-white text-xs py-2 px-3 sm:px-6 border-b border-[#084223] select-none w-full overflow-hidden">
+      <div className="max-w-[1400px] mx-auto flex items-center justify-between gap-2 sm:gap-4">
+        {/* Left: Free delivery notice - always visible and prioritized */}
+        <div className="flex items-center gap-1.5 font-medium tracking-wide text-emerald-100 text-[11px] sm:text-xs shrink-0">
+          <Truck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-300 shrink-0" />
+          <span>
+            Free delivery on orders above <span className="text-white font-bold">₹499</span>
+          </span>
         </div>
 
-        {/* Center: Brand motto */}
-        <div className="hidden md:flex items-center gap-3 text-emerald-100/90 text-[11px] font-medium tracking-wide">
+        {/* Center: Brand motto - hidden on mobile and tablet to prevent overcrowding */}
+        <div className="hidden lg:flex items-center gap-3 text-emerald-100/90 text-[11.5px] font-medium tracking-wide shrink-0">
           <span>Fresh Food</span>
           <span className="text-emerald-400/60">|</span>
           <span>Better Health</span>
@@ -20,30 +22,30 @@ export default function AnnouncementBar({ onOpenTrackOrder, onOpenHelp, onOpenAp
           <span>Happier You</span>
         </div>
 
-        {/* Right: Utility links */}
-        <div className="flex items-center gap-3 text-[11px] font-medium text-emerald-100">
+        {/* Right: Utility links - responsive layout */}
+        <div className="flex items-center gap-2 sm:gap-3 text-[10.5px] sm:text-[11.5px] font-medium text-emerald-100 shrink-0">
           <button
             onClick={onOpenAppModal}
-            className="flex items-center gap-1 hover:text-white transition-colors"
+            className="hidden sm:flex items-center gap-1 hover:text-white transition-colors"
           >
-            <Smartphone className="w-3.5 h-3.5 text-emerald-300" />
-            <span>Download App</span>
+            <Smartphone className="w-3 h-3 text-emerald-300" />
+            <span>App</span>
           </button>
-          <span className="text-emerald-400/60">|</span>
+          <span className="hidden sm:inline text-emerald-400/50">|</span>
           <button
             onClick={onOpenTrackOrder}
             className="flex items-center gap-1 hover:text-white transition-colors"
           >
-            <MapPin className="w-3.5 h-3.5 text-emerald-300" />
-            <span>Track Order</span>
+            <MapPin className="w-3 h-3 text-emerald-300" />
+            <span>Track</span>
           </button>
-          <span className="text-emerald-400/60">|</span>
+          <span className="text-emerald-400/50">|</span>
           <button
             onClick={onOpenHelp}
             className="flex items-center gap-1 hover:text-white transition-colors"
           >
-            <HelpCircle className="w-3.5 h-3.5 text-emerald-300" />
-            <span>Help & Support</span>
+            <HelpCircle className="w-3 h-3 text-emerald-300" />
+            <span>Help</span>
           </button>
         </div>
       </div>

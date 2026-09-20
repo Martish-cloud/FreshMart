@@ -3,6 +3,7 @@ import { X, Star, Heart, ShoppingCart, ShieldCheck, Truck, RotateCcw, Plus, Minu
 import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
 import { useToast } from '../../context/ToastContext';
+import ProductImage from '../common/ProductImage';
 
 export default function ProductDetailModal({ product, onClose, onOpenCheckout }) {
   if (!product) return null;
@@ -50,11 +51,15 @@ export default function ProductDetailModal({ product, onClose, onOpenCheckout })
                 {product.discount}
               </span>
             )}
-            <img
-              src={product.image}
-              alt={product.name}
-              className="max-h-64 max-w-full object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
-            />
+            <div className="w-56 h-56 flex items-center justify-center">
+              <ProductImage
+                src={product.image}
+                alt={product.name}
+                productName={product.name}
+                category={product.category}
+                className="drop-shadow-md hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
 
           {/* Right: Info & Controls */}

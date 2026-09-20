@@ -4,7 +4,7 @@ import { CIRCLE_CATEGORIES } from '../../data/categories';
 export default function CategoryCircleNav({ activeCategory, onSelectCategory }) {
   return (
     <section className="bg-white py-6 border-b border-gray-100 select-none">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         {/* Horizontal Row on Desktop, Horizontal Scroll on Mobile */}
         <div className="flex items-start justify-between gap-3 sm:gap-4 overflow-x-auto no-scrollbar pb-2 pt-1">
           {CIRCLE_CATEGORIES.map((cat) => {
@@ -18,7 +18,7 @@ export default function CategoryCircleNav({ activeCategory, onSelectCategory }) 
               >
                 {/* Circular image frame matching reference */}
                 <div
-                  className={`w-16 h-16 sm:w-[68px] sm:h-[68px] rounded-full flex items-center justify-center p-1.5 transition-all duration-300 transform group-hover:scale-108 ${
+                  className={`w-16 h-16 sm:w-[68px] sm:h-[68px] rounded-full flex items-center justify-center p-2 transition-all duration-300 transform group-hover:scale-108 ${
                     isSelected
                       ? 'bg-emerald-100 ring-2 ring-emerald-600 shadow-md scale-105'
                       : 'bg-[#f4f7f5] group-hover:bg-emerald-50 group-hover:shadow-sm'
@@ -27,7 +27,7 @@ export default function CategoryCircleNav({ activeCategory, onSelectCategory }) 
                   <img
                     src={cat.image}
                     alt={cat.name}
-                    className="w-full h-full object-cover rounded-full shadow-2xs group-hover:rotate-3 transition-transform"
+                    className="w-full h-full object-contain group-hover:rotate-3 transition-transform"
                     loading="lazy"
                   />
                 </div>

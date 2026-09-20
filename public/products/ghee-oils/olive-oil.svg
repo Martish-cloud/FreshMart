@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="52" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Dark Green Glass Bottle -->
+  <path d="M102 45 L138 45 L138 75 L148 95 L148 200 C148 206 144 210 138 210 L102 210 C96 210 92 206 92 200 L92 95 L102 75 Z" fill="#14532d"/>
+  <!-- Gold Cap -->
+  <rect x="100" y="32" width="40" height="15" rx="2" fill="#eab308"/>
+  <!-- Cream Label with Olive Motif -->
+  <rect x="94" y="125" width="52" height="45" rx="2" fill="#fef9c3"/>
+  <text x="120" y="145" font-size="8" font-weight="bold" fill="#14532d" text-anchor="middle" font-family="sans-serif">EXTRA VIRGIN</text>
+  <text x="120" y="157" font-size="7" fill="#4d7c0f" text-anchor="middle" font-family="sans-serif">OLIVE OIL</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="72" ry="12" fill="#000" opacity="0.14" filter="blur(6px)"/>
+  <!-- Rich red meat pieces -->
+  <path d="M55 125 C65 95 115 90 125 120 C130 155 85 170 60 155 Z" fill="#be123c"/>
+  <path d="M125 115 C135 85 185 85 195 115 C200 155 155 170 130 155 Z" fill="#9f1239"/>
+  <path d="M85 145 C100 125 150 125 160 155 C165 190 115 200 90 185 Z" fill="#881337"/>
+  <!-- White bone ring -->
+  <ellipse cx="98" cy="115" rx="8" ry="6" fill="#fff1f2"/>
+  <circle cx="98" cy="115" r="3" fill="#be123c"/>
+</svg>

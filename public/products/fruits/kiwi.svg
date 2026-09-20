@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="62" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Fuzzy Brown Skin -->
+  <ellipse cx="120" cy="138" r="68" fill="#78350f"/>
+  <ellipse cx="120" cy="138" r="64" fill="#84cc16"/>
+  <!-- Inner Core -->
+  <ellipse cx="120" cy="138" rx="18" ry="24" fill="#fef08a"/>
+  <!-- Black Seeds ring -->
+  <circle cx="102" cy="125" r="2.5" fill="#18181b"/>
+  <circle cx="138" cy="125" r="2.5" fill="#18181b"/>
+  <circle cx="96" cy="138" r="2.5" fill="#18181b"/>
+  <circle cx="144" cy="138" r="2.5" fill="#18181b"/>
+  <circle cx="102" cy="150" r="2.5" fill="#18181b"/>
+  <circle cx="138" cy="150" r="2.5" fill="#18181b"/>
+</svg>

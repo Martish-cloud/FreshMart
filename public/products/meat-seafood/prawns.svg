@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="65" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Curled Tiger Prawn Body -->
+  <path d="M75 90 C125 60 175 80 185 130 C192 165 165 195 130 190 C105 185 110 160 130 160 C150 160 160 140 150 115 C135 90 95 95 75 115 Z" fill="#fb923c"/>
+  <!-- Segment lines -->
+  <path d="M120 78 Q135 95 125 110 M150 90 Q160 110 148 128 M172 115 Q175 135 158 148" stroke="#ea580c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tail Fan -->
+  <path d="M75 115 L50 110 L60 125 L50 135 L75 125 Z" fill="#f97316"/>
+</svg>

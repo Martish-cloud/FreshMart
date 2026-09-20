@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="216" rx="55" ry="10" fill="#000" opacity="0.12" filter="blur(5px)"/>
+  <defs>
+    <radialGradient id="grape" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="40%" stop-color="#7e22ce"/>
+      <stop offset="85%" stop-color="#581c87"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </radialGradient>
+  </defs>
+  <!-- Vine Stem -->
+  <path d="M120 45 C122 30 135 22 145 20" stroke="#713f12" stroke-width="4" stroke-linecap="round"/>
+  <path d="M125 36 C145 25 170 30 178 42 C162 55 138 52 125 36Z" fill="#15803d"/>
+  <!-- Grapes cluster -->
+  <circle cx="100" cy="80" r="20" fill="url(#grape)"/>
+  <circle cx="140" cy="80" r="20" fill="url(#grape)"/>
+  <circle cx="120" cy="72" r="21" fill="url(#grape)"/>
+  <circle cx="85" cy="110" r="20" fill="url(#grape)"/>
+  <circle cx="120" cy="105" r="22" fill="url(#grape)"/>
+  <circle cx="155" cy="110" r="20" fill="url(#grape)"/>
+  <circle cx="102" cy="140" r="20" fill="url(#grape)"/>
+  <circle cx="138" cy="140" r="20" fill="url(#grape)"/>
+  <circle cx="120" cy="168" r="18" fill="url(#grape)"/>
+  <circle cx="120" cy="195" r="14" fill="url(#grape)"/>
+</svg>

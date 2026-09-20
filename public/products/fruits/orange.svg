@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="65" ry="12" fill="#000" opacity="0.14" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="orangeGrad" cx="35%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="25%" stop-color="#fb923c"/>
+      <stop offset="75%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </radialGradient>
+    <linearGradient id="orgLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <!-- Stem & Leaves -->
+  <path d="M120 70 C120 52 126 44 130 40" stroke="#713f12" stroke-width="4" stroke-linecap="round"/>
+  <path d="M124 50 C146 36 175 42 182 54 C168 66 142 66 124 52Z" fill="url(#orgLeaf)"/>
+  <path d="M118 54 C100 42 78 46 72 58 C85 68 108 66 118 54Z" fill="#16a34a"/>
+  <!-- Orange Globe -->
+  <circle cx="120" cy="138" r="72" fill="url(#orangeGrad)"/>
+  <!-- Texture Pores -->
+  <circle cx="95" cy="115" r="1.5" fill="#c2410c" opacity="0.6"/>
+  <circle cx="135" cy="105" r="1.5" fill="#c2410c" opacity="0.6"/>
+  <circle cx="150" cy="135" r="1.5" fill="#c2410c" opacity="0.6"/>
+  <circle cx="105" cy="165" r="1.5" fill="#c2410c" opacity="0.6"/>
+  <!-- 3D Specular Sheen -->
+  <ellipse cx="92" cy="104" rx="20" ry="12" fill="#ffffff" opacity="0.35" transform="rotate(-20 92 104)"/>
+</svg>

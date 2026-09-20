@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="55" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Leaves Crown -->
+  <path d="M120 20 L110 75 L120 70 L130 75 Z" fill="#15803d"/>
+  <path d="M100 30 L105 75 L115 70 Z" fill="#16a34a"/>
+  <path d="M140 30 L125 70 L135 75 Z" fill="#16a34a"/>
+  <path d="M85 45 L102 75 L110 72 Z" fill="#22c55e"/>
+  <path d="M155 45 L130 72 L138 75 Z" fill="#22c55e"/>
+  <!-- Pineapple Body -->
+  <ellipse cx="120" cy="145" rx="58" ry="68" fill="#ca8a04"/>
+  <!-- Diamond Scaled Texture -->
+  <path d="M80 110 L160 175 M80 140 L150 195 M80 80 L160 145 M160 110 L80 175 M160 140 L90 195 M160 80 L80 145" stroke="#713f12" stroke-width="2.5" opacity="0.5"/>
+</svg>

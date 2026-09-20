@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="75" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Egg Carton base -->
+  <path d="M45 160 L195 160 L185 200 L55 200 Z" fill="#a1a1aa"/>
+  <!-- 4 Brown eggs nested -->
+  <ellipse cx="75" cy="140" rx="18" ry="24" fill="#d97706" transform="rotate(-5 75 140)"/>
+  <ellipse cx="105" cy="135" rx="18" ry="25" fill="#b45309"/>
+  <ellipse cx="135" cy="135" rx="18" ry="25" fill="#d97706"/>
+  <ellipse cx="165" cy="140" rx="18" ry="24" fill="#b45309" transform="rotate(5 165 140)"/>
+  <!-- Egg Specular -->
+  <ellipse cx="100" cy="125" rx="4" ry="8" fill="#ffffff" opacity="0.35"/>
+  <ellipse cx="130" cy="125" rx="4" ry="8" fill="#ffffff" opacity="0.35"/>
+</svg>

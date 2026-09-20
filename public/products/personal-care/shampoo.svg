@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="50" ry="10" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Sleek Shampoo Bottle -->
+  <path d="M100 65 L140 65 L145 90 L145 200 C145 206 140 210 135 210 L105 210 C100 210 95 206 95 200 L95 90 L100 65 Z" fill="#047857"/>
+  <!-- Pump Dispenser -->
+  <rect x="115" y="45" width="10" height="20" fill="#cbd5e1"/>
+  <path d="M105 45 L135 45 L135 40 L100 40 Z" fill="#94a3b8"/>
+  <!-- Label with Aloe Leaf -->
+  <rect x="100" y="115" width="40" height="50" rx="3" fill="#ecfdf5"/>
+  <path d="M120 130 C110 140 120 155 120 155 C120 155 130 140 120 130 Z" fill="#10b981"/>
+</svg>

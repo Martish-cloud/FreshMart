@@ -3,6 +3,7 @@ import { X, Heart, ShoppingCart, Trash2 } from 'lucide-react';
 import { useWishlist } from '../../context/WishlistContext';
 import { useCart } from '../../context/CartContext';
 import { useToast } from '../../context/ToastContext';
+import ProductImage from '../common/ProductImage';
 
 export default function WishlistDrawer({ isOpen, onClose, onQuickView }) {
   const { wishlistItems, removeFromWishlist } = useWishlist();
@@ -73,12 +74,17 @@ export default function WishlistDrawer({ isOpen, onClose, onQuickView }) {
           <div className="flex-1 overflow-y-auto p-4 divide-y divide-gray-100 custom-scrollbar">
             {wishlistItems.map((item) => (
               <div key={item.id} className="py-3.5 flex items-center gap-3 group">
-                <img
-                  src={item.image}
-                  alt={item.name}
+                <div
                   onClick={() => { onQuickView(item); onClose(); }}
-                  className="w-16 h-16 object-cover rounded-xl border border-gray-100 bg-gray-50 shrink-0 cursor-pointer"
-                />
+                  className="w-14 h-14 shrink-0 flex items-center justify-center p-1 rounded-xl bg-transparent cursor-pointer hover:scale-105 transition-transform"
+                >
+                  <ProductImage
+                    src={item.image}
+                    alt={item.name}
+                    productName={item.name}
+                    category={item.category}
+                  />
+                </div>
 
                 <div className="flex-1 min-w-0">
                   <h4

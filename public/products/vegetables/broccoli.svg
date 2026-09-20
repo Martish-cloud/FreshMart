@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="62" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Stalk Base -->
+  <path d="M105 140 L100 205 C115 210 125 210 140 205 L135 140 Z" fill="#86efac"/>
+  <!-- Floret Clouds -->
+  <circle cx="85" cy="115" r="28" fill="#15803d"/>
+  <circle cx="155" cy="115" r="28" fill="#15803d"/>
+  <circle cx="120" cy="90" r="32" fill="#16a34a"/>
+  <circle cx="95" cy="80" r="24" fill="#22c55e"/>
+  <circle cx="145" cy="80" r="24" fill="#22c55e"/>
+  <circle cx="120" cy="120" r="26" fill="#166534"/>
+</svg>

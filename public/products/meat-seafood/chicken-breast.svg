@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="72" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="chkGrad" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#fecdd3"/>
+      <stop offset="50%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </radialGradient>
+  </defs>
+  <!-- Clean Tender Chicken Breast Cutout -->
+  <path d="M55 135 C55 90 95 70 155 80 C195 86 205 130 185 165 C160 200 95 195 65 175 C55 160 55 145 55 135 Z" fill="url(#chkGrad)"/>
+  <!-- Tender meat grain texture lines -->
+  <path d="M85 105 Q125 115 165 110 M90 135 Q130 145 168 140 M100 165 Q135 170 155 165" stroke="#ffe4e6" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <!-- Specular sheen -->
+  <ellipse cx="120" cy="100" rx="25" ry="10" fill="#ffffff" opacity="0.4" transform="rotate(5 120 100)"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="216" rx="80" ry="12" fill="#000" opacity="0.14" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="melonPulp" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="40%" stop-color="#ef4444"/>
+      <stop offset="85%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </radialGradient>
+  </defs>
+  <!-- Rind Outer Dark Green -->
+  <path d="M30 140 C50 205 190 205 210 140 Z" fill="#14532d"/>
+  <!-- Rind Light Green Stripe -->
+  <path d="M36 142 C54 200 186 200 204 142 Z" fill="#86efac"/>
+  <!-- White Pith Layer -->
+  <path d="M42 142 C58 194 182 194 198 142 Z" fill="#f0fdf4"/>
+  <!-- Juicy Red Pulp -->
+  <path d="M46 142 C62 188 178 188 194 142 Z" fill="url(#melonPulp)"/>
+  <!-- Seeds -->
+  <ellipse cx="85" cy="155" rx="3" ry="5" fill="#18181b" transform="rotate(-20 85 155)"/>
+  <ellipse cx="120" cy="165" rx="3" ry="5" fill="#18181b"/>
+  <ellipse cx="155" cy="155" rx="3" ry="5" fill="#18181b" transform="rotate(20 155 155)"/>
+  <ellipse cx="102" cy="148" rx="2.5" ry="4.5" fill="#18181b" transform="rotate(-10 102 148)"/>
+  <ellipse cx="138" cy="148" rx="2.5" ry="4.5" fill="#18181b" transform="rotate(10 138 148)"/>
+</svg>

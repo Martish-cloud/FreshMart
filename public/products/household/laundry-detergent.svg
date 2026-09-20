@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="60" ry="12" fill="#000" opacity="0.14" filter="blur(6px)"/>
+  <!-- Jug Body with Handle -->
+  <path d="M85 75 L155 75 L165 195 C165 205 155 208 145 208 L95 208 C85 208 75 205 75 195 Z" fill="#2563eb"/>
+  <!-- Handle cutout hole -->
+  <path d="M135 105 L150 105 L150 155 L135 155 Z" fill="#ffffff"/>
+  <!-- Measuring cap -->
+  <rect x="88" y="55" width="38" height="22" rx="4" fill="#dc2626"/>
+  <!-- Wave graphic -->
+  <path d="M78 150 Q110 130 162 150" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+</svg>

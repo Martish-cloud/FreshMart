@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="60" ry="12" fill="#000" opacity="0.12" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="papPulp" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="80%" stop-color="#c2410c"/>
+    </radialGradient>
+  </defs>
+  <!-- Outer Rind -->
+  <path d="M120 50 C155 50 180 85 180 135 C180 185 155 210 120 210 C85 210 60 185 60 135 C60 85 85 50 120 50 Z" fill="#65a30d"/>
+  <path d="M120 54 C150 54 174 86 174 135 C174 182 150 206 120 206 C90 206 66 182 66 135 C66 86 90 54 120 54 Z" fill="url(#papPulp)"/>
+  <!-- Seed Cavity -->
+  <ellipse cx="120" cy="135" rx="26" ry="50" fill="#7c2d12"/>
+  <!-- Black Seeds -->
+  <circle cx="115" cy="115" r="3.5" fill="#18181b"/>
+  <circle cx="125" cy="120" r="3.5" fill="#18181b"/>
+  <circle cx="118" cy="132" r="3.5" fill="#18181b"/>
+  <circle cx="124" cy="145" r="3.5" fill="#18181b"/>
+  <circle cx="115" cy="155" r="3.5" fill="#18181b"/>
+</svg>

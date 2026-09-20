@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="75" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Multiple fresh meat chunks -->
+  <path d="M50 120 C60 90 100 85 110 115 C115 145 80 160 55 145 Z" fill="#fda4af"/>
+  <path d="M125 110 C135 85 180 85 190 110 C195 145 155 160 130 145 Z" fill="#fb7185"/>
+  <path d="M85 140 C100 125 145 125 155 150 C160 185 115 195 90 180 Z" fill="#f43f5e"/>
+  <!-- Bone cut accents -->
+  <circle cx="95" cy="108" r="6" fill="#fff1f2"/>
+  <circle cx="165" cy="105" r="7" fill="#fff1f2"/>
+</svg>

@@ -3,13 +3,22 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  html, body {
     scroll-behavior: smooth;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
-/* Custom scrollbar for horizontal categories and drawers */
+/* Ensure images have transparent background and contain by default */
+img {
+  background-color: transparent;
+}
+
+/* Custom scrollbars */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -19,8 +28,8 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 .custom-scrollbar::-webkit-scrollbar-track {
   background: #f1f5f9;
@@ -33,25 +42,12 @@
   background: #94a3b8;
 }
 
-/* Handwritten font for organic badges like 'Good Food Brighter Days' */
+/* Handwritten font for organic badges */
 .font-handwriting {
   font-family: 'Caveat', cursive;
 }
 
-/* Soft pulse and float animations */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-6px) rotate(2deg);
-  }
-}
-
-.animate-float {
-  animation: float 4s ease-in-out infinite;
-}
-
+/* Micro-animations */
 @keyframes pulse-subtle {
   0%, 100% {
     transform: scale(1);
@@ -63,4 +59,17 @@
 
 .animate-pulse-subtle {
   animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
 }

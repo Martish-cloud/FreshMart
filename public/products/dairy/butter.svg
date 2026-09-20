@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="70" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Golden Butter Block -->
+  <path d="M120 90 L185 110 L120 135 L55 110 Z" fill="#fef08a"/>
+  <path d="M55 110 L120 135 L120 180 L55 155 Z" fill="#facc15"/>
+  <path d="M120 135 L185 110 L185 155 L120 180 Z" fill="#eab308"/>
+  <!-- Butter Curl on top -->
+  <path d="M110 105 C125 95 135 115 120 120" stroke="#f59e0b" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

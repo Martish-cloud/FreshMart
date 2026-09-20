@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="125" cy="214" rx="75" ry="12" fill="#000" opacity="0.12" filter="blur(6px)"/>
+  <defs>
+    <linearGradient id="banCrown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4d7c0f"/>
+      <stop offset="100%" stop-color="#713f12"/>
+    </linearGradient>
+    <linearGradient id="banBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#facc15"/>
+      <stop offset="85%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+  <!-- Background banana -->
+  <path d="M50 82 C80 90 160 115 190 165 C175 180 140 160 100 135 C65 115 45 95 50 82Z" fill="#ca8a04" opacity="0.8"/>
+  <!-- Middle banana -->
+  <path d="M42 90 C85 105 165 130 188 185 C170 196 135 175 90 145 C50 120 38 102 42 90Z" fill="url(#banBody)"/>
+  <!-- Front Banana -->
+  <path d="M38 100 C80 115 155 145 180 200 C160 206 125 185 75 150 C40 125 34 110 38 100Z" fill="#fde047"/>
+  <!-- Ridges -->
+  <path d="M40 105 C85 125 150 155 178 198" stroke="#ca8a04" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  <!-- Tip -->
+  <path d="M180 200 C186 202 192 201 190 196 C186 193 182 196 180 200Z" fill="#713f12"/>
+  <!-- Stem Crown -->
+  <path d="M34 94 C32 82 40 76 48 76 C54 82 48 94 34 94Z" fill="url(#banCrown)"/>
+  <ellipse cx="65" cy="118" rx="28" ry="4" fill="#ffffff" opacity="0.4" transform="rotate(22 65 118)"/>
+</svg>

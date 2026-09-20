@@ -5,8 +5,8 @@ import BestDeals from './BestDeals';
 
 export default function MainDealsSection({ onQuickView, onViewAll, onSelectCategory }) {
   return (
-    <section className="py-8 bg-[#f9fafb]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+    <section className="py-8 bg-[#f9fafb] w-full overflow-hidden">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         {/* 3-Column Layout matching reference image */}
         <div className="grid grid-cols-1 lg:grid-cols-[240px_1fr_240px] xl:grid-cols-[270px_1fr_270px] gap-4 items-stretch">
           {/* Left Promotional Banner */}

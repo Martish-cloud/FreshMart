@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="216" rx="45" ry="10" fill="#000" opacity="0.12" filter="blur(5px)"/>
+  <defs>
+    <linearGradient id="carGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="35%" stop-color="#f97316"/>
+      <stop offset="85%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <!-- Green Fronds -->
+  <path d="M120 70 L110 25 M120 70 L120 18 M120 70 L130 25 M120 70 L100 35 M120 70 L140 35" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Carrot Cone -->
+  <path d="M98 70 C120 66 122 66 142 70 C138 120 126 185 120 215 C114 185 102 120 98 70 Z" fill="url(#carGrad)"/>
+  <!-- Horizontal Ridges -->
+  <path d="M106 100 Q120 103 134 100 M110 135 Q120 138 130 135 M114 170 Q120 172 126 170" stroke="#9a3412" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+</svg>

@@ -94,7 +94,7 @@ export default function App() {
     <ToastProvider>
       <CartProvider>
         <WishlistProvider>
-          <div className="min-h-screen flex flex-col bg-[#f9fafb] text-gray-800 antialiased">
+          <div className="min-h-screen w-full overflow-x-hidden flex flex-col bg-[#f9fafb] text-gray-800 antialiased">
             {/* Top Announcement Bar matching Reference */}
             <AnnouncementBar
               onOpenAppModal={() => setInfoModal({ isOpen: true, type: 'app', title: 'Download FreshMart App' })}

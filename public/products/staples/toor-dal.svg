@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="66" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Bowl of Yellow Dal -->
+  <path d="M60 145 C60 195 180 195 180 145 Z" fill="#e2e8f0"/>
+  <ellipse cx="120" cy="145" rx="60" ry="16" fill="#fef08a"/>
+  <!-- Split yellow lentils grains -->
+  <circle cx="95" cy="142" r="3.5" fill="#eab308"/>
+  <circle cx="115" cy="145" r="3.5" fill="#ca8a04"/>
+  <circle cx="135" cy="142" r="3.5" fill="#eab308"/>
+  <circle cx="150" cy="146" r="3" fill="#ca8a04"/>
+</svg>

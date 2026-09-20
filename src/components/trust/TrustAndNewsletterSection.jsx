@@ -55,8 +55,8 @@ export default function TrustAndNewsletterSection() {
   ];
 
   return (
-    <section className="py-8 bg-white select-none">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+    <section className="py-8 bg-white select-none overflow-hidden">
+      <div className="max-w-[1400px] w-full mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           {/* Left: 5 Trust Features (7 or 8 columns on desktop) */}
           <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-4">

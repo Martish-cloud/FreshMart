@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="55" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Bottle Shape -->
+  <path d="M100 50 L140 50 L142 75 L152 98 L152 200 C152 206 146 210 140 210 L100 210 C94 210 88 206 88 200 L88 98 L98 75 Z" fill="#f97316"/>
+  <!-- Cap -->
+  <rect x="98" y="36" width="44" height="15" rx="3" fill="#ea580c"/>
+  <!-- Label with orange slice -->
+  <rect x="90" y="115" width="60" height="52" rx="3" fill="#ffffff"/>
+  <circle cx="120" cy="140" r="14" fill="#fb923c"/>
+  <circle cx="120" cy="140" r="11" fill="#fed7aa"/>
+</svg>

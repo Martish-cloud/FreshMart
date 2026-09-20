@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="66" ry="12" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <defs>
+    <radialGradient id="mangoGrad" cx="40%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#f59e0b"/>
+      <stop offset="70%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </radialGradient>
+  </defs>
+  <!-- Stem -->
+  <path d="M95 55 C98 38 108 30 115 25" stroke="#713f12" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <path d="M102 44 C130 35 158 50 170 70 C145 74 120 65 102 44Z" fill="#15803d"/>
+  <!-- Mango Kidney Curve -->
+  <path d="M100 58 C135 52 175 75 185 115 C196 160 170 200 135 210 C95 218 55 180 55 135 C55 95 75 62 100 58Z" fill="url(#mangoGrad)"/>
+  <!-- Highlight -->
+  <path d="M85 85 C110 70 140 85 145 105 C130 95 105 95 85 110Z" fill="#ffffff" opacity="0.4"/>
+</svg>

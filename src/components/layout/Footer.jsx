@@ -13,8 +13,8 @@ export default function Footer({ onOpenInfoModal }) {
   ];
 
   return (
-    <footer className="bg-white border-t border-gray-200/80 pt-10 pb-6 text-gray-600 select-none">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+    <footer className="bg-white border-t border-gray-200/80 pt-10 pb-6 text-gray-600 select-none overflow-hidden">
+      <div className="max-w-[1400px] w-full mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center pb-8 border-b border-gray-100">
           {/* Left Column: Logo & Tagline (4 cols) */}
           <div className="md:col-span-4 space-y-2">

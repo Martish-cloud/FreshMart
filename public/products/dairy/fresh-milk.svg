@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="55" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Bottle Shape (Glass with white milk) -->
+  <path d="M102 45 L138 45 L138 60 L148 85 L148 200 C148 206 142 210 135 210 L105 210 C98 210 92 206 92 200 L92 85 L102 60 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Blue Milk Cap -->
+  <rect x="100" y="35" width="40" height="12" rx="3" fill="#2563eb"/>
+  <!-- Blue Brand Label Band -->
+  <rect x="92" y="115" width="56" height="42" fill="#3b82f6"/>
+  <path d="M96 136 Q120 125 144 136" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="120" cy="136" r="6" fill="#ffffff"/>
+</svg>

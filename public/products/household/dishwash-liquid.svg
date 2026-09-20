@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="55" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Curved Bottle Shape -->
+  <path d="M102 55 L138 55 L144 80 L150 130 C154 175 146 208 136 208 L104 208 C94 208 86 175 90 130 L96 80 Z" fill="#facc15"/>
+  <!-- Green Cap -->
+  <rect x="106" y="40" width="28" height="16" rx="3" fill="#16a34a"/>
+  <!-- Lemon Graphic on Label -->
+  <rect x="96" y="115" width="48" height="48" rx="4" fill="#ffffff"/>
+  <circle cx="120" cy="138" r="14" fill="#eab308"/>
+  <circle cx="120" cy="138" r="11" fill="#fef08a"/>
+</svg>

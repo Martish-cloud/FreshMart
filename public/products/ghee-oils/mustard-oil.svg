@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <ellipse cx="120" cy="214" rx="55" ry="11" fill="#000" opacity="0.13" filter="blur(6px)"/>
+  <!-- Tall Bottle -->
+  <path d="M98 45 L142 45 L142 70 L152 95 L152 200 C152 206 146 210 140 210 L100 210 C94 210 88 206 88 200 L88 95 L98 70 Z" fill="#ca8a04" stroke="#e2e8f0"/>
+  <!-- Red Cap -->
+  <rect x="96" y="32" width="48" height="15" rx="3" fill="#dc2626"/>
+  <!-- Yellow Label -->
+  <rect x="90" y="120" width="60" height="50" fill="#fef08a"/>
+  <text x="120" y="142" font-size="9" font-weight="bold" fill="#713f12" text-anchor="middle" font-family="sans-serif">MUSTARD</text>
+  <text x="120" y="156" font-size="7" fill="#b91c1c" text-anchor="middle" font-family="sans-serif">KACHI GHANI</text>
+</svg>
